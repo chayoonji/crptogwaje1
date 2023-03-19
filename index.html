@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 메인 영역 -->
+    <div class="container">
+      <!-- 사이드바 영역 -->
+      <div class="sidebar">
+        <label class="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </div>
+
+      <!-- 
+            컨텐츠 영역 :
+        -->
+      <div class="contents">
+        <h1>🍀Crypto Programming? HOME🍀</h1>
+        <p>현재시간: <span id="time"></span></p>
+
+        <h2>Web Programming</h2>
+        <h3>
+          웹 개발자를 위한 온라인 매뉴얼:
+          <a href="https://www.w3schools.com/"
+            >W3Schools: 웹프로그래밍 매뉴얼</a
+          >
+        </h3>
+        <p>
+          웹프로그래밍의 3가지 요소:
+          <a href="https://www.w3schools.com/html/default.asp">HTML5</a> |
+          <a href="https://www.w3schools.com/css/default.asp">CSS3</a> |
+          <a href="https://www.w3schools.com/js/default.asp">Javascript</a>
+        </p>
+        <p>
+          mainsystem 아무거나 Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Deserunt eveniet recusandae maiores, saepe error
+          quia assumenda quam autem ad, qui quae, aliquid ipsum eaque corporis a
+          tempora eius labore pariatur.
+        </p>
+        <p>
+          배경색 바꾸기:
+          <button onclick="pink()">Pink</button>
+          <button onclick="lightblue()">Lightblue</button>
+          <button onclick="yellow()">Yellow</button>
+          <button onclick="reset()">Reset</button>
+        </p>
+        <p>
+          배워봅시다:
+          <button onmouseover="showhtml()" onmouseout="hide()">HTML5</button>
+          <button onmouseover="showcss()" onmouseout="hide()">CSS3</button>
+          <button onmouseover="showjs()" onmouseout="hide()">Javascript</button>
+        </p>
+        <div>
+          <img id="fig" height="200px" />
+          <p id="desc"></p>
+        </div>
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>
